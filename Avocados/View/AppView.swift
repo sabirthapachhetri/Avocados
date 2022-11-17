@@ -19,7 +19,7 @@ struct AppView: View {
             ContentView()
                  .tabItem({
                      Image("tabicon-book")
-                     Text("Avocados")
+                     Text("Recipes")
                  })
             
             RipenningStagesView()

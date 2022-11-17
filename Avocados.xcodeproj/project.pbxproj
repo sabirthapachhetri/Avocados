@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C14FB612925F2D800DA80C6 /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C14FB602925F2D700DA80C6 /* DishesView.swift */; };
 		5C1A117A2924EE1E004BDCF5 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A11792924EE1E004BDCF5 /* HeaderModel.swift */; };
 		5C1A117C2924EE87004BDCF5 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A117B2924EE87004BDCF5 /* HeaderData.swift */; };
 		5C2D17BD292248D20013B486 /* AvocadosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D17BC292248D20013B486 /* AvocadosApp.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C14FB602925F2D700DA80C6 /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
 		5C1A11792924EE1E004BDCF5 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
 		5C1A117B2924EE87004BDCF5 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		5C2D17B9292248D20013B486 /* Avocados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocados.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +96,7 @@
 				5CF6096929239EBB00DBFE05 /* SettingsView.swift */,
 				5CF6096B29239EC400DBFE05 /* AppView.swift */,
 				5C7841C42924CEBA0085926C /* HeaderView.swift */,
+				5C14FB602925F2D700DA80C6 /* DishesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				5CF6096629239E7F00DBFE05 /* AvocadosView.swift in Sources */,
 				5C1A117A2924EE1E004BDCF5 /* HeaderModel.swift in Sources */,
 				5C1A117C2924EE87004BDCF5 /* HeaderData.swift in Sources */,
+				5C14FB612925F2D800DA80C6 /* DishesView.swift in Sources */,
 				5C7841C52924CEBA0085926C /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
