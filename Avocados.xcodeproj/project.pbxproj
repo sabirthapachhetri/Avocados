@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C03FE0E2937657E006F7700 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03FE0D2937657E006F7700 /* RecipeDetailView.swift */; };
 		5C14FB612925F2D800DA80C6 /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C14FB602925F2D700DA80C6 /* DishesView.swift */; };
 		5C1A117A2924EE1E004BDCF5 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A11792924EE1E004BDCF5 /* HeaderModel.swift */; };
 		5C1A117C2924EE87004BDCF5 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A117B2924EE87004BDCF5 /* HeaderData.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C03FE0D2937657E006F7700 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		5C14FB602925F2D700DA80C6 /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
 		5C1A11792924EE1E004BDCF5 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
 		5C1A117B2924EE87004BDCF5 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				5CC9D58F292F84290074BBA8 /* RecipeCardView.swift */,
 				5C753E372933A64000AD4C90 /* RecipeRatingView.swift */,
 				5C753E392933A7AC00AD4C90 /* RecipeCookingView.swift */,
+				5C03FE0D2937657E006F7700 /* RecipeDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				5CC9D590292F84290074BBA8 /* RecipeCardView.swift in Sources */,
 				5CC9D58E292F82810074BBA8 /* RecipeData.swift in Sources */,
 				5C7841C52924CEBA0085926C /* HeaderView.swift in Sources */,
+				5C03FE0E2937657E006F7700 /* RecipeDetailView.swift in Sources */,
 				5CC9D58A292F77750074BBA8 /* FactData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
