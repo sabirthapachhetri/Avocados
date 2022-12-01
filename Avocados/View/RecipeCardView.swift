@@ -11,6 +11,8 @@ struct RecipeCardView: View {
     
     var recipe: Recipe
     
+    @State private var showModal: Bool = false
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             Image(recipe.image)
@@ -61,6 +63,12 @@ struct RecipeCardView: View {
         .background(Color.white)
         .cornerRadius(12)
         .shadow(color: Color("ColoeBlackTransparentLight"),radius: 8, x: 0, y: 0)
+        .onTapGesture {
+            self.showModal = true
+        }
+        .sheet(isPresented: self.$showModal) {
+            RecipeDetailView(recipe: self.recipe)
+        }
     }
 }
 
