@@ -25,7 +25,7 @@ struct AppView: View {
             RipenningStagesView()
                  .tabItem({
                      Image("tabicon-avocado")
-                     Text("Avocados")
+                     Text("Ripening")
                  })
             
             SettingsView()
